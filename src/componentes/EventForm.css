@@ -1,0 +1,227 @@
+.event-form{
+    background-color: #36323a;
+    border-radius: 10px;
+    width: 310px;
+    height: 400px;
+}
+
+.title  {
+    font-family: sans-serif;
+    font-size: 10px;
+    color: #fff;
+    padding: 0 2px 0 20px;
+    margin: 0 5px 0px 30px;
+}
+
+.Icon1 {
+    padding: 0 2px 0 20px;
+    margin: 0 5px 0px 30px;
+    height: 30px;
+    width: 20px;
+    color: #ec8713;
+}
+.cena-chef{
+    display: grid;
+    background-color: #192939;
+    padding: 0 10px 10px 5 px;
+    margin:  30px;
+    border-radius: 6%;
+    box-shadow: 0px 5px 15px rgba(206, 188, 188, 0.25);
+    border: #fff;
+    
+}
+.cena-chefInterior{
+    display: grid;
+    background-color: #272f36;
+    margin: 6px 6px 1px 6px;
+    border-radius: 5%;  
+    border-color: #fff; 
+    
+}
+
+.cena-chefTitulo{
+    color: #ec8713;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10px;
+}
+.lu{
+    color: #fff;
+}
+
+.guion {
+    display: flex;
+    color: #fff;
+    justify-content: end;
+    align-items: initial;
+}
+
+.event-type-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.event-type-buttons button {
+    font-size: 15px;
+    background-color: #4d3a6b;
+    border: none; 
+    border-radius: 8px;
+    color: #fff;
+    margin: 0 5px;
+    padding: 5px 10px; 
+    cursor: pointer;
+    width: 110px;
+    transition: background-color 0.3s ease, color 0.3s ease;  
+  }
+  
+  .event-type-buttons button:hover {
+    background-color: #09060e;
+    
+  }
+  
+  
+
+.personas{
+    display: flex;
+    background-color: #4d3a6b;
+    margin: 20px 5px 25px 5px ;
+    padding: 1px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+.personas h3{
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.btn1 {
+    background-color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin: 0 5px 0 2px;
+}
+ .btn2{
+    background-color: #ec8713;
+    border: none;
+    border-radius: 4px;
+    margin: 0 0px 0 5px;
+ }
+
+ .personas p {
+    color: #fff;
+ }
+  
+  /* Estilos para los botones AM/PM */
+  .am-pm-buttons button {
+    background-color: #2e2c33;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .am-pm-buttons button.selected {
+    background-color: #f79c15;
+    color: #1f1e1a;
+  }
+  
+  .am-pm-buttons button:hover {
+    background-color: #67508c;
+    color: #ffd700;
+  }
+
+  .btn-guardar{
+    display: flex;
+    justify-content: center;
+    margin: 22px 0 30px;
+  }
+
+  .btn3 {
+    border: none;
+    border-radius: 6px;
+    padding: 5px 30px 5px 30px;
+    margin:  0 3px 0 ;
+    background-color: #fac767;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+  }
+  .btn4 {
+    border: none;
+    border-radius: 6px;
+    padding: 5px 30px 5px 30px;
+    margin:  0 10px 0 3px;
+    background-color: #7900ac;
+    font-size: 12px;
+  }
+
+  .container-time {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hour {
+    display: grid;
+    place-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+
+  }
+  .hour input{
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    border: none;
+    background-color: #45375c;
+    color: #fff;
+    font-size: 40px;
+    margin: 0 5px 0 20px;
+    border-radius: 8px;
+    width: 60px;
+    height: 60px;
+    padding-left: 12px;
+
+  }
+  .minute{
+    display: grid;
+    place-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+  }
+
+  .minute input {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    border: none;
+    background-color: #45375c;
+    color: #fff;
+    font-size: 40px;
+    margin: 0 5px 0 20px;
+    border-radius: 8px;
+    width: 60px;
+    height: 60px;
+    padding-left: 12px;
+}
+
+
+
+  .time {
+    display: flex;
+    margin: 5px;
+  }
+  .am-pm-buttons{
+    display: grid;
+    height: 20px;
+    margin: 5px 5px 0 12px;
+  }
+  
+  .am-pm-buttons button {
+    margin-top: 5px;
+  }

@@ -1,0 +1,50 @@
+.listaEvento {
+    display: grid;
+    background-color: #36323a;
+    border-radius: 10px;
+    width: 310px;
+    height: 400px;
+    margin-top: 50px;
+    place-content: center;
+    place-items: center;
+    
+}
+
+.cena-chefList {
+    background-color: #434146; 
+    border-radius: 8px;
+    margin: 10px 20px 5px 20px;
+    color: #fff;
+}
+
+.cena-chefList h3 {
+    color: chocolate;
+}
+
+.lista1 {
+    display: flex;
+    background-color: #4d3a6b;
+    padding: 2px 8px 2px 8px;
+    border-radius: 10px;
+    margin: 0 5px 5px 20px;
+    justify-content: space-between;
+}
+
+.agregarEvento {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    border: 1px solid #fff;
+    margin: 20px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 29px;
+
+}
+
+.agregarEvento:hover {
+    background-color: #fff;
+    color: #36323a;
+}

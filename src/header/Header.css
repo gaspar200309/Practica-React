@@ -1,0 +1,75 @@
+/* Header.css */
+
+/* Header.css */
+
+.header {
+    background-size: cover;
+    color: #ffffff;
+    padding: 20px;
+    height: 80vh;
+    background-image: linear-gradient(to bottom, #00000033, #312a2a),
+                      linear-gradient(to top, #312a2a, rgba(0, 0, 0, 0.2)),
+                      url('../assets/fondo.jpg');
+    
+}
+
+ .logo {
+    margin: 0;
+ }
+
+ .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30vh;
+ }
+
+ .navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+ }
+
+ .navbar li {
+    cursor: pointer;
+ }
+
+ .descripcion {
+    display: grid;
+    justify-content: end;
+    justify-items: end;
+ }
+ .container-descripcion{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+ }
+
+ .notificaciones{
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid #fff;
+    padding: 3px 4px 3px 4px;
+    font-size: 18px;
+    color: #fff;
+ }
+
+ .not {
+    width: 30px;
+ }
+
+ .notificaciones:hover {
+    background-color: #fff;
+    color: #000;
+ }
+
+ /* Añade lo siguiente para lograr el desbordamiento */
+ .navbar {
+    overflow: hidden;
+ }
+
+ .navbar ul {
+    white-space: nowrap;
+ }
